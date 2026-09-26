@@ -1,0 +1,7 @@
+<svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(4, 6)">
+    <rect width="20" height="20" rx="5" fill="#2563eb"/>
+    <path d="M6 15V6H11C12.6569 6 14 7.34315 14 9C14 10.3438 13.1148 11.4811 11.8906 11.8542L14.5 15H12.2L9.8 12H7.8V15H6ZM7.8 10.4H10.8C11.5732 10.4 12.2 9.7732 12.2 9C12.2 8.2268 11.5732 7.6 10.8 7.6H7.8V10.4Z" fill="white"/>
+  </g>
+  <text x="29" y="21" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="800" fill="#0e2246" letter-spacing="-0.3">RecruiterSoft</text>
+</svg>
