@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>window.location.replace("thank-you/");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thank You - iDigitalStudies. Your counselling request has been received. Our team will contact you shortly.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Thank You! | iDigitalStudies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css?v=2.4">
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1486883099250043');
+  fbq('track', 'PageView');
+  fbq('track', 'Lead');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1486883099250043&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    .ty-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: #f8fafc;
+    }
+
+    .ty-hero {
+      background: linear-gradient(135deg, #04144b 0%, #071d70 45%, #0e2d8a 100%);
+      color: #ffffff;
+      padding: 60px 0 90px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ty-hero::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 380px;
+      height: 380px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255, 91, 26, 0.22) 0%, rgba(255, 91, 26, 0) 70%);
+      pointer-events: none;
+    }
+
+    .ty-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -60px;
+      left: -60px;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(30, 136, 229, 0.25) 0%, rgba(30, 136, 229, 0) 70%);
+      pointer-events: none;
+    }
+
+    .ty-card-wrap {
+      max-width: 820px;
+      margin: -60px auto 60px;
+      padding: 0 16px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .ty-main-card {
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 44px 36px;
+      box-shadow: 0 20px 60px rgba(4, 20, 75, 0.12);
+      border: 1px solid #eef2f7;
+      text-align: center;
+    }
+
+    .ty-badge-anim {
+      width: 84px;
+      height: 84px;
+      margin: -76px auto 20px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 38px;
+      box-shadow: 0 10px 30px rgba(16, 185, 129, 0.45);
+      border: 5px solid #ffffff;
+      animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    }
+
+    @keyframes popIn {
+      0% { transform: scale(0.3) rotate(-20deg); opacity: 0; }
+      100% { transform: scale(1) rotate(0deg); opacity: 1; }
+    }
+
+    .ty-title {
+      font-size: 30px;
+      font-weight: 900;
+      color: #0e2246;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+
+    .ty-subtitle {
+      font-size: 15px;
+      color: #5a6578;
+      max-width: 600px;
+      margin: 0 auto 28px;
+      line-height: 1.6;
+    }
+
+    .ty-wa-banner {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      border: 1px solid #bbf7d0;
+      border-radius: 18px;
+      padding: 24px 22px;
+      margin-bottom: 34px;
+      text-align: center;
+    }
+
+    .ty-wa-banner h3 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #065f46;
+      margin-bottom: 6px;
+    }
+
+    .ty-wa-banner p {
+      font-size: 13.5px;
+      color: #047857;
+      margin-bottom: 16px;
+    }
+
+    .ty-wa-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #25d366;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 15px;
+      padding: 13px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+      transition: all 0.25s ease;
+    }
+
+    .ty-wa-btn:hover {
+      background: #1ebc59;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+      color: #ffffff;
+    }
+
+    .ty-wa-btn i {
+      font-size: 20px;
+    }
+
+    .ty-steps-heading {
+      font-size: 18px;
+      font-weight: 800;
+      color: #0e2246;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+
+    .ty-steps-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 34px;
+      text-align: left;
+    }
+
+    .ty-step-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 18px 16px;
+      position: relative;
+    }
+
+    .ty-step-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: #0e2246;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .ty-step-card:nth-child(2) .ty-step-num {
+      background: #fe4759;
+    }
+
+    .ty-step-card:nth-child(3) .ty-step-num {
+      background: #10b981;
+    }
+
+    .ty-step-card h4 {
+      font-size: 14px;
+      font-weight: 800;
+      color: #0e2246;
+      margin-bottom: 5px;
+    }
+
+    .ty-step-card p {
+      font-size: 12px;
+      color: #64748b;
+      line-height: 1.5;
+    }
+
+    .ty-info-box {
+      background: #f1f5f9;
+      border-radius: 14px;
+      padding: 18px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .ty-info-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: #334155;
+      font-weight: 600;
+    }
+
+    .ty-info-item i {
+      color: #fe4759;
+      font-size: 16px;
+    }
+
+    .ty-actions-row {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .ty-btn-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 10px;
+      background: #0e2246;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+
+    .ty-btn-home:hover {
+      background: #1a3a70;
+      transform: translateY(-2px);
+      color: #ffffff;
+    }
+
+    .ty-btn-call {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 10px;
+      background: #fe4759;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+
+    .ty-btn-call:hover {
+      background: #e04a0e;
+      transform: translateY(-2px);
+      color: #ffffff;
+    }
+
+    .ty-social-bar {
+      margin-top: 26px;
+      padding-top: 20px;
+      border-top: 1px solid #eef2f7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .ty-social-bar span {
+      font-size: 13px;
+      color: #64748b;
+      font-weight: 600;
+    }
+
+    .ty-social-bar a {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #f1f5f9;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #0e2246;
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+
+    .ty-social-bar a:hover {
+      background: #0e2246;
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      .ty-main-card {
+        padding: 36px 20px;
+      }
+      .ty-title {
+        font-size: 24px;
+      }
+      .ty-steps-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      .ty-info-box {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .ty-actions-row .ty-btn-home,
+      .ty-actions-row .ty-btn-call,
+      .ty-wa-btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body class="ty-page">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="iDigitalStudies home">
+        <img src="assets/IDS_new_logo.svg" alt="iDigital Studies" class="brand-logo-img">
+      </a>
+      <div class="header-right">
+        <a href="tel:+919315471293" class="nav-phone-link">
+          <i class="fas fa-phone"></i>
+          <span>+91 93154 71293</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main style="flex: 1;">
+    <!-- HERO HEADER -->
+    <div class="ty-hero">
+      <div class="container">
+        <span class="eyebrow" style="background: rgba(255,255,255,0.15); color: #ffffff; margin-bottom: 12px; display: inline-block;">
+          ✨ Registration Confirmed
+        </span>
+        <h1 style="font-size: clamp(28px, 5vw, 42px); font-weight: 900; margin-bottom: 8px;">
+          You're One Step Closer to Your Digital Career!
+        </h1>
+        <p style="font-size: 15px; color: #cbd5e1; max-width: 580px; margin: 0 auto;">
+          We have received your enquiry for Master in Digital Marketing Course.
+        </p>
+      </div>
+    </div>
+
+    <!-- MAIN THANK YOU CARD -->
+    <div class="ty-card-wrap">
+      <div class="ty-main-card">
+        <div class="ty-badge-anim">
+          <i class="fas fa-check"></i>
+        </div>
+
+        <h2 class="ty-title">Thank You for Connecting With Us!</h2>
+        <p class="ty-subtitle">
+          Your request for free counselling and demo class has been registered. Our Senior Career Mentor will reach out to you within <b>15–30 minutes</b>.
+        </p>
+
+        <!-- WHATSAPP INSTANT ACTION -->
+        <div class="ty-wa-banner">
+          <h3>⚡ Want Instant Counselling &amp; Course Syllabus?</h3>
+          <p>Don't wait for a call! Message our lead counsellor directly on WhatsApp to get batch timings, fees, and internship details right now.</p>
+          <a href="https://wa.me/919315471293?text=Hi%20iDigitalStudies%2C%20I%20just%20submitted%20my%20form%20on%20your%20website%20and%20want%20the%20course%20details." class="ty-wa-btn" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i> Chat on WhatsApp Now
+          </a>
+        </div>
+
+        <!-- 3-STEP ROADMAP -->
+        <h3 class="ty-steps-heading">What Happens Next?</h3>
+        <div class="ty-steps-grid">
+          <div class="ty-step-card">
+            <div class="ty-step-num">1</div>
+            <h4>Profile Evaluation</h4>
+            <p>Our academic counsellor reviews your career goals, background, and learning preference.</p>
+          </div>
+          <div class="ty-step-card">
+            <div class="ty-step-num">2</div>
+            <h4>1:1 Counselling Call</h4>
+            <p>You'll receive a detailed consultation about syllabus, live client projects, and placement assistance.</p>
+          </div>
+          <div class="ty-step-card">
+            <div class="ty-step-num">3</div>
+            <h4>Free Demo Class</h4>
+            <p>Experience our live classroom practical training and meet industry expert mentors.</p>
+          </div>
+        </div>
+
+        <!-- CONTACT DETAILS STRIP -->
+        <div class="ty-info-box">
+          <div class="ty-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>F407, Arthamart, Tech Zone IV, Greater Noida, 201306</span>
+          </div>
+          <div class="ty-info-item">
+            <i class="fas fa-envelope"></i>
+            <span>info@idigitalstudies.com</span>
+          </div>
+          <div class="ty-info-item">
+            <i class="fas fa-phone-alt"></i>
+            <span>+91 93154 71293</span>
+          </div>
+        </div>
+
+        <!-- ACTIONS -->
+        <div class="ty-actions-row">
+          <a href="index.html" class="ty-btn-home">
+            <i class="fas fa-arrow-left"></i> Return to Homepage
+          </a>
+          <a href="tel:+919315471293" class="ty-btn-call">
+            <i class="fas fa-phone"></i> Call Counsellor Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-wrap">
+      <div class="footer-brand">
+        <strong>iDigitalStudies</strong>
+        <p>AI-powered digital marketing education in Greater Noida &amp; Noida.</p>
+      </div>
+      <div class="footer-copy">
+        <p>© 2024 iDigitalStudies. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

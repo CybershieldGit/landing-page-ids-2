@@ -1,0 +1,7 @@
+<svg width="115" height="32" viewBox="0 0 115 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(6, 5) scale(0.68)">
+    <path d="M4 27L14 3L9 15L22 17L12 27H4Z" fill="#0C2340"/>
+    <path d="M14 3L9 15L17 15L20 8L14 3Z" fill="#0284C7"/>
+  </g>
+  <text x="30" y="21.5" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="800" fill="#0C2340" letter-spacing="-0.2">Razorpay</text>
+</svg>

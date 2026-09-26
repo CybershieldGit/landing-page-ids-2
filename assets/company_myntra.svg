@@ -1,0 +1,9 @@
+<svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(10, 6) scale(0.58)">
+    <path d="M0 24.8C0 24.8 5.6 12 11.2 0H16.4L10 24.8H0Z" fill="#F26A36"/>
+    <path d="M8.8 24.8L18.4 4.8L24.8 24.8H15.6L12.4 14.8L8.8 24.8Z" fill="#E22468"/>
+    <path d="M23.6 24.8C23.6 24.8 29.2 12 34.8 0H40L33.6 24.8H23.6Z" fill="#F49E25"/>
+    <path d="M32.4 24.8L42 4.8L48.4 24.8H39.2L36 14.8L32.4 24.8Z" fill="#D81758"/>
+  </g>
+  <text x="44" y="21" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="800" fill="#282C3F" letter-spacing="-0.2">Myntra</text>
+</svg>

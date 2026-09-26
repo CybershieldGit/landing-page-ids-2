@@ -1,0 +1,12 @@
+# Robots.txt for iDigitalStudies Landing Page
+# https://lp4.idigitalstudies.com
+
+User-agent: *
+Allow: /
+
+# Prevent search engine indexing of post-conversion pages
+Disallow: /thank-you/
+Disallow: /thank-you.html
+
+# Sitemap location
+Sitemap: https://lp4.idigitalstudies.com/sitemap.xml
